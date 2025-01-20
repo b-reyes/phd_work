@@ -1,0 +1,6 @@
+2.0			 !T_val the final time
+-2.0			 !beta for initial release of particle
+3.14159265358979	 !k the wavenumber 
+-0.5			 !a for range of random numbers
+0.5			 !b for range of random numbers
+2			 !powpow the power of j in the IC

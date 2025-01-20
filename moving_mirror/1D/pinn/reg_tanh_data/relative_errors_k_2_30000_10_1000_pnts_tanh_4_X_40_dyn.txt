@@ -1,0 +1,2 @@
+max relative error u = 0.001480224794701029
+max relative error v = 0.0018362572415738972

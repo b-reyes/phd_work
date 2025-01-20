@@ -1,0 +1,13 @@
+0.005			 !T_val the final time
+3.0			 !a 3
+8.0			 !b 8
+0.17                            !e  .17
+0.27                           !f .27
+0.4                            !ggg .4 AC epsilon range
+0.9                            !hhh .9
+0.045                          !o .045
+0.055                          !p .055
+16                            !L_rand
+0.0                           !x_start starting position for our grid
+0.5                           !x_end end position for our grid
+1                             !the number of threads for pardiso

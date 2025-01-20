@@ -1,0 +1,8 @@
+640,1280,2560,5120,10240,20480 !grids array 
+2                              !T i.e. the final time
+-2                             !beta (starting position)
+3.14159265358979               !k (wave number)
+-0.5                          !left bound for random numbers  -0.5
+0.5			       !right boundard for random numbers  
+2		       ! powpow the power of j for 1d_moving mirror
+65			       !s_dim the stochastic dimension

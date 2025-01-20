@@ -1,0 +1,25 @@
+0          ! option, (0) convergence,(1) grapher, (2) MC, (3) QMC,(4) MLMC, (5) MLQMC
+11,21,41,81,161,321,641  (can run up to 5121 for 64GB nodes) grids for deterministic
+3.0                           !a 3
+3.0                           !b 8
+.17                            !e  .17
+.27		              !f .27
+.09			      !ggg .09 AC epsilon range
+.09			      !hhh .14
+.045			      !o .1
+.055			      !p .2
+16                            !L for the number of random variables
+5                             !shift for random numbers for QMC and MLQMC
+0.0			      !x_start starting position for our grid
+0.5			      !x_end end position for our grid 
+1			      !the number of threads for pardiso
+10			      !#samples = 2**N_pow for MC/QMC MLMC epsilon
+641			      !N_ex (spatial grid) for MC/QMC 
+641			      !M_ex (temporal grid) for MC/QMC
+5			      !5 2**m_it_pow for the number of Quasi-random shifts
+34			      !s_dim number of stochastic dimensions 
+1,1,1,1,1,1	      !N_vals_vec for MLMC/MLQMC, sets initial levels
+2.3			      !gam_mlmc gamma value for MLMC/MLQMC
+2			      !L_first the number of initial levles for MLMC/MLQMC
+7			      !max_ell maximum number of levels for MLMC/MLQMC
+1			      !alpha value for eps value for MLQMC

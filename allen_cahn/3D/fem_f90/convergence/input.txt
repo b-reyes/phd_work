@@ -1,0 +1,31 @@
+0      !deterministic (0)
+5                     !size of N array
+16,8,8,1,1        !N array for MLMC/QMLMC
+5                     !size of grids array for deterministic
+6,11,21,41,81        !grids array for deterministic
+21                    !grid size (N_ex) for MC/QMC
+6                     !size of grids array for MLMC/QMLMC and mlmc_test
+6,11,21,41,81,161         !grids array for MLMC/QMLMC and mlmc_test
+10                    !N_vals for MLMC/QMLMC method, used to calc eps for mlmc/qmlmc
+10                    !Number of samples for MC/QMC
+10                    !Number of samples for all levels of mlmc_test
+0                     !exact qoi for MC/QMC or MLMC/QMLMC
+.002                 !T i.e. the final time
+5.0                     !a 3
+5.0                     !b 8
+0.045                   !c 0.045
+0.055                  !d 0.055
+0.17                    !e .17
+0.27                   !f .27
+0.09 !ggg .4  AC epsilon range (nothing to do with MC/MLMC/QMC/QMLMC)
+0.09                  !hhh .9
+8                     !L for the number of random variables
+5                     !shift for random numbers
+0.0                   !x_start starting position for our grid
+0.5                   !x_end end position for our grid
+1.987                 !gam_mlmc used for MLMC
+2                     !the initial number of levels for mlmc
+1                     !power of N for eps
+1                     !the number of threads for pardiso
+5                     !m_it_pow # of shifts = 2**m_it_pow
+26                    !s_dim the number of stochastic dimensions
